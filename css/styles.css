@@ -13,7 +13,7 @@ body {
 	color: var(--primary-text-color);
 
 }
-.current{
+.nav-list .link.current{
 	color: #2196f3; 
 }
 .no-link {
@@ -101,8 +101,8 @@ color: var(--web-color-logo);
   cursor: pointer;
 }
 
-.button.link:hover,
-.button.link:focus {
+.button:hover,
+.button:focus {
  background-color:#188CE8;
 
 /*---------------Качества в работе---------------*/
