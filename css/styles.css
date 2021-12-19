@@ -25,6 +25,7 @@
 	}
 	.no-link {
 	  text-decoration: none;
+	  display: block;
 	}
 	
 	/*---------------Header---------------*/
@@ -241,7 +242,7 @@
 
 	/* -------------------PORTFOLIO------------------- */
 	/* ---------Фильтр--------- */
-	.filter-button {
+	.filter-button-service {
 		background-color: #FFFFFF;
 	}
 
@@ -273,10 +274,6 @@
 	}
 
 	.service-network-list {
-
-	}
-
-	.service-total-card {
 
 	}
 
