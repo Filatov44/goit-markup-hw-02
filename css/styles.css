@@ -6,6 +6,13 @@
 	--web-color-logo: #2196f3;
 	--color-text-name: #212121;
 	--color-team-position: #757575;
+	/* portfolio */
+	--background-button-color: #F5F4FA;
+	--color-btn-portfolio: #212121;
+	--background-button-color-active: #2196F3;
+	--color-btn-portfolio-activ: #FFFFFF;
+	--service-title-color: #212121;
+	--service-text-color: #757575;
 	}
 	
 	body {
@@ -230,4 +237,61 @@
 	.adress-list .link:hover,
 	.adress-list .link:focus {
 		color: var(--accent-color);
+	}
+
+	/* -------------------PORTFOLIO------------------- */
+	/* ---------Фильтр--------- */
+	.filter-button {
+		background-color: #FFFFFF;
+	}
+
+	.filter-button-list {
+
+	}
+
+	.btn-filter {
+		font-family: inherit;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 1.62;
+		/* text-align: center; */
+		letter-spacing: 0.03em;
+		color: var(--color-btn-portfolio);
+		background-color: var(--background-button-color);
+		cursor: pointer;
+	}
+
+	.btn-filter:hover,
+	.btn-filter:focus {
+		color: var(--color-btn-portfolio-activ);
+		background-color: var(--background-button-color-active);
+	}
+			/*----------Сетка услуг----------*/
+
+	.service-network {
+		background-color: #FFFFFF;
+	}
+
+	.service-network-list {
+
+	}
+
+	.service-total-card {
+
+	}
+
+	.service-title {
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 2;
+		letter-spacing: 0.06em;
+		color: var(--service-title-color);
+	}
+
+	.service-text{
+		font-size: 16px;
+  		line-height: 1.87;
+  		letter-spacing: 0.03em;
+  		color: var(--service-text-color);
+
 	}
